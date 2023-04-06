@@ -146,7 +146,7 @@ def make_collider_plot(collider_file, style_file, oname, formats, livingston, li
     bars = ax.barh(yvals, width, height=height, left=left, color=colors, label=labels, edgecolor=style.edge, linewidth=1)
     patches = {p.get_label() : p.get_bbox() for p in bars.patches}
     bar_labels = [annotateAroundBox(label, loc, ax, patches[label], size=style.label_size) for label, loc in zip(labels,locs)]
-    ax.axvline(x=2023,linestyle='--')
+    ax.axvline(x=2023.25,linestyle='--')
     ax.set_xlabel("year")
     ax.set_ylabel("{} [{}]".format(yname,style.base_unit))
     if not liny: ax.set_yscale('log')
