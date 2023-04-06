@@ -8,5 +8,5 @@ colliders = [
     {"name": "LHC (1)", "start": 2010, "end": 2013, "energy": 4*2, "unit": "TeV", "particles": ["p"]},
     {"name": "LHC (2)", "start": 2015, "end": 2018, "energy": 6.5*2, "unit": "TeV", "particles": ["p"]},
     {"name": "LHC (3)", "start": 2022, "end": 2026, "energy": 6.8*2, "unit": "TeV", "particles": ["p"]},
-    {"name": "HL-LHC", "start": 2029, "end": 2038, "energy": 7*2, "unit": "TeV", "particles": ["p"]},
+    {"name": "HL-LHC", "start": 2029, "end": 2041, "energy": 7*2, "unit": "TeV", "particles": ["p"]},
 ]
