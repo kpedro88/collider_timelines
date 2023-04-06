@@ -1,5 +1,6 @@
 colliders = [
     {"name": "PETRA", "start": 1978, "end": 1986, "energy": 20*2, "unit": "GeV", "particles": ["e"]},
+    {"name": "SLC", "start": 1988, "end": 1998, "energy": 45*2, "unit": "GeV", "particles": ["e"], "loc": "center right"},
     {"name": "LEP", "start": 1989, "end": 1995, "energy": 45.6*2, "unit": "GeV", "particles": ["e"]},
     {"name": "LEP2", "start": 1995, "end": 2000, "energy": 104.5*2, "unit": "GeV", "particles": ["e"]},
     {"name": "SppS", "start": 1981, "end": 1984, "energy": 315*2, "unit": "GeV", "particles": ["p"]},
