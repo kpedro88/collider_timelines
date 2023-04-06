@@ -8,7 +8,7 @@ base_unit = "GeV"
 # per year; value corresponds to 9 inches for 60 years (baseline)
 fig_width = 0.15
 
-log_height = 0.2
+log_height = 0.1
 lin_height = 500
 
 particles = {
@@ -18,6 +18,9 @@ particles = {
 }
 
 font_size = 20
+label_size = 14
+edge = 'black'
+loc = 'upper center'
 
 print_args = {
     "png": {"dpi": 100},
