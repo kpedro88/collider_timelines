@@ -8,7 +8,7 @@ base_unit = "GeV"
 # per year; value corresponds to 9 inches for 60 years (baseline)
 fig_width = 0.15
 
-log_height = 0.1
+log_height = 0.15
 lin_height = 500
 
 particles = {
